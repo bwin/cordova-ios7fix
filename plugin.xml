@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.kerosieben.cordova.plugins.ios7scrollfix" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>ios7scrollfix</name>
+    <author>bwin</author>
+    <description>Cordova plugin to suppress scrolling of the webview. https://github.com/bwin/cordova-ios7fix</description>
+    <keywords>ios7,scrollfix</keywords>
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="ios7scrollfix">
