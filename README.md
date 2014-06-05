@@ -11,9 +11,14 @@ If you're having trouble with the whole document scrolling on form-field selecti
 ### IOS7PreventWebViewScrolling [boolean; default:false]
 Enable this plugin with:
 
-```
 	<preference name="IOS7PreventWebViewScrolling" value="true"/>
-```
+
+## Phonegap Build
+
+This plugin is available for Phonegap Build. See [plugin page].
+Add the following to your config.xml to use version 0.1.0 of this plugin.
+
+	<gap:plugin name="com.kerosieben.cordova.plugins.ios7scrollfix" version="0.1.0" />
 
 ## Motivation
 
@@ -30,3 +35,7 @@ When a form-field is selected these problems occur:
 
 ## License
 The MIT License (MIT)
+
+
+
+[plugin page]:https://build.phonegap.com/plugins/800
